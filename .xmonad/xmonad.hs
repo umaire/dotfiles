@@ -36,7 +36,7 @@ myManageHook = composeAll
 
 
 myXmonadBar = "dzen2 -x '0' -y '0' -h '24' -w '640' -ta 'l' -fg '#AAAAAA' -bg '#1A1A1A' -fn '-*-terminus-*-r-normal-*-*-96-*-*-*-*-iso8859-*'"
-myStatusBar = "conky -c /home/umair/.xmonad/.conky_dzen | dzen2 -x '640' -w '640' -h '24' -ta 'r' -bg '#1A1A1A' -fg '#AAAAAA' -y '0' -fn '-*-terminus-*-r-normal-*-*-96-*-*-*-*-iso8859-*'"
+myStatusBar = "conky -c ~/.conkyrc | dzen2 -x '640' -w '640' -h '24' -ta 'r' -bg '#1A1A1A' -fg '#AAAAAA' -y '0' -fn '-*-terminus-*-r-normal-*-*-96-*-*-*-*-iso8859-*'"
 
 myLogHook :: Handle -> X ()
 myLogHook h = dynamicLogWithPP $ defaultPP

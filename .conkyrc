@@ -6,4 +6,4 @@ total_run_times 0
 use_spacer none
  
 TEXT
-^fg(\#ff0000)${loadavg 1 2 3} ^fg()${time %a %b %d %I:%M%P} BATT:${voffset 2} ${battery_bar 5,150} ${battery_percent}%
+CPU:^fg(\#ff0000)${cpu}% ^fg()MEM:^fg(\#ff0000)${memperc}% ^fg()    ${time %a %b %d %I:%M%p}
