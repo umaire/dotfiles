@@ -13,7 +13,7 @@ xsetroot -cursor_name left_ptr
 killall wallpaper; ~/bin/wallpaper &
 
 # clipboard manager
-clipit &
+clipit --no-icon &
 
 # composite manager
 compton --config ~/.compton.conf -b
